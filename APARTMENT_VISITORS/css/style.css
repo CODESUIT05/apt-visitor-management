@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.visitor-form-section, .about-section, .recent-visitors-section, .contact-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.visitor-form-section h2, .about-section h2, .recent-visitors-section h2, .contact-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.visitor-form-section input, .visitor-form-section textarea, .visitor-form-section button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.visitor-form-section button {
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.visitor-form-section button:hover {
+    background: #218838;
+}
+
+.about-section ul, .contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-section li, .contact-section li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.about-section i, .contact-section i {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.recent-visitors-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.recent-visitors-section th, .recent-visitors-section td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.recent-visitors-section th {
+    background-color: #f2f2f2;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 40px;
+}
+/* Navigation Bar Styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white; /* Set link color to white */
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Slight background highlight on hover */
+    color: #ffcc00; /* Optional: Change hover text color to gold */
+}
